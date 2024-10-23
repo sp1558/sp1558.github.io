@@ -1,0 +1,206 @@
+/* Body */
+body, h1, h2, h3, p, img, a, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: #e9e7e7;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Profile */
+.profile-section {
+    background: rgb(97, 96, 96);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px white;
+}
+
+.profile-section h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0 5px 0;
+}
+
+.profile-section h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.profile-section h3 {
+    font-size: 1.0em;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* About Me */
+.about-me {
+    background-color: #e9e7e7;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.linkedin_button, .resume_button, .WellsFargo_button, .Amazon_button, .EMT_button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.linkedin_button {
+    background-color: #0077b5;
+    color: white;
+}
+
+.resume_button {
+    background-color: #999999;
+    color: white;
+}
+
+.WellsFargo_button {
+    background-color: #bb0826;
+    color: white;
+}
+
+.Amazon_button {
+    background-color: #FF9900;
+    color: black;
+}
+
+.EMT_button {
+    background-color: navy;
+    color: white;
+}
+
+button:hover, .linkedin_button:hover, .resume_button:hover, .WellsFargo_button:hover, .Amazon_button:hover, .EMT_button:hover {
+    opacity: 0.9;
+}
+
+/* Experience */
+.experience h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.experience {
+    margin-bottom: 30px;
+}
+
+.job-experience {
+    margin: 20px auto;
+    max-width: 1100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center
+}
+
+.job-experience h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-experience p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.job-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.job-images_Wells_Fargo img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #bb0826;
+}
+
+.job-images_Amazon img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #FF9900;
+}
+
+.job-images_EMT img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid navy;
+}
+
+/* Contact */
+.contact {
+    background-color: #e8ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1em;
+    color: #333;
+}
+
+.contact a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
